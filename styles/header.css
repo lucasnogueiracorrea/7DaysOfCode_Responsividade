@@ -1,0 +1,39 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    padding: 2em 1em;
+    gap: 20px;
+    background-color: var(--cor-de-fundo);
+}
+
+.imagem__de__perfil{
+    width: 60px;
+}
+
+.conteiner__nome__do__medico{
+    padding: 0.5em 0;
+}
+
+.titulo__cabecalho{
+    font-weight: 700;
+    color: var(--negrito-padrao);
+    font-size: 1.38rem
+}
+
+.sub-titulo__cabecalho{
+    color: var(--cinza-claro);
+    font-size: 0.88rem;
+    line-height: 22.4px;
+}
+
+.conteiner__titulo__datas__consultas{
+    background-color: var(--cor-de-fundo);
+}
+
+
+.titulo__datas__consultas{
+    padding: 1em;
+    color: var(--negrito-padrao);
+    font-weight: 700;
+    font-size: 1rem;
+}

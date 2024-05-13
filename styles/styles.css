@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('reset.css');
+@import url('header.css');
+@import url('main.css');
+
+
+:root{
+    --cor-de-fundo: rgb(238, 240, 243);
+    --branco-destaque: white;
+    --fonte-padrao: "Montserrat", sans-serif;
+    --negrito-padrao: rgba(70, 70, 70, 1);
+    --cinza-claro: rgba(163, 163, 163, 1);
+    --cor-de-fundo-button-video: rgba(255, 176, 80, 1);
+    --cor-de-fundo-button-endereco: rgba(72, 148, 255, 1);
+    --color-buttons: white;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
