@@ -1,0 +1,61 @@
+.conteiner__itens__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--branco-destaque);
+    border-radius: 12px 12px 0 0;
+
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    gap: 30px;
+    padding: 0.90em 0em;
+}
+
+.link__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    gap: 10px;
+    font-size: 0.88rem;
+}
+
+.icone__consultas{
+    width: 20px;
+    height: 22px;
+    background-image: url('../assets/Calendarioicone.svg');
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icone__clientes{
+    width: 20px;
+    height: 22px;
+    background-image: url('../assets/clientes-icone.svg');
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icone__relatorios{
+    width: 20px;
+    height: 22px;
+    background-image: url('../assets/relatorios-icone.svg');
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icone__menu{
+    width: 20px;
+    height: 22px;
+    background-image: url('../assets/menu-icone.svg');
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
