@@ -1,10 +1,12 @@
+.footer{
+    margin-bottom: 50px;
+}
 .conteiner__itens__lista{
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: var(--branco-destaque);
     border-radius: 12px 12px 0 0;
-
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -20,10 +22,11 @@
     text-decoration: none;
     gap: 10px;
     font-size: 0.88rem;
+    color: var(--cinza-claro);
 }
 
 .icone__consultas{
-    width: 20px;
+    width: 24px;
     height: 22px;
     background-image: url('../assets/Calendarioicone.svg');
     display: inline-block;
@@ -32,7 +35,7 @@
 }
 
 .icone__clientes{
-    width: 20px;
+    width: 24px;
     height: 22px;
     background-image: url('../assets/clientes-icone.svg');
     display: inline-block;
@@ -41,16 +44,17 @@
 }
 
 .icone__relatorios{
-    width: 20px;
+    width: 24px;
     height: 22px;
     background-image: url('../assets/relatorios-icone.svg');
     display: inline-block;
     background-position: center;
     background-repeat: no-repeat;
+    ;
 }
 
 .icone__menu{
-    width: 20px;
+    width: 24px;
     height: 22px;
     background-image: url('../assets/menu-icone.svg');
     display: inline-block;
@@ -58,4 +62,31 @@
     background-repeat: no-repeat;
 }
 
+.conteiner__button__adicionar{
+    display: none;
+    background-color: rgba(119, 119, 119, 0.404);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.link__icon__adiconar{
+    background-color: var(--cor-de-fundo-button-endereco);
+    width: 56px;
+    height: 56px;
+    position: fixed;
+    bottom: 10%;
+    right: 8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 2.20rem;
+}
 
