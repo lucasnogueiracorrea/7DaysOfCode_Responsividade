@@ -17,7 +17,7 @@
 .titulo__cabecalho{
     font-weight: 700;
     color: var(--negrito-padrao);
-    font-size: 1.38rem
+    font-size: 1.38rem;
 }
 
 .sub-titulo__cabecalho{
@@ -36,4 +36,23 @@
     color: var(--negrito-padrao);
     font-weight: 700;
     font-size: 1rem;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .titulo__datas__consultas{
+        text-align: center;
+    }
+
+    .cabecalho{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .header{
+        display: flex;
+        justify-content: center;
+    }
 }
